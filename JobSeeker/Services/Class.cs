@@ -1,4 +1,4 @@
-﻿namespace JobSeeker.Services
+﻿namespace Employer.Services
 {
     public class Class
     {

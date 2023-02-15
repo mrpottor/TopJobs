@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobSeeker", "TopJobs\JobSeeker.csproj", "{35686939-616B-4ECB-AD55-166D61CF6068}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employer", "Employer\Employer.csproj", "{C1D17A54-E5F9-4A3E-90C9-0DA1B52937E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employer", "Employer\Employer.csproj", "{C1D17A54-E5F9-4A3E-90C9-0DA1B52937E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobPosting", "JobPosting\JobPosting.csproj", "{BCE50FA6-4314-46E6-86D4-9B91E2C5499C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobPosting", "JobPosting\JobPosting.csproj", "{BCE50FA6-4314-46E6-86D4-9B91E2C5499C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobApplication", "JobApplication\JobApplication.csproj", "{8E3609B8-313A-41F6-AC20-4176CCB23800}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobApplication", "JobApplication\JobApplication.csproj", "{8E3609B8-313A-41F6-AC20-4176CCB23800}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobSeeker", "JobSeeker\JobSeeker.csproj", "{F307DA6E-8A20-434D-975D-6690601C2901}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{35686939-616B-4ECB-AD55-166D61CF6068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{35686939-616B-4ECB-AD55-166D61CF6068}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{35686939-616B-4ECB-AD55-166D61CF6068}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{35686939-616B-4ECB-AD55-166D61CF6068}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C1D17A54-E5F9-4A3E-90C9-0DA1B52937E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C1D17A54-E5F9-4A3E-90C9-0DA1B52937E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1D17A54-E5F9-4A3E-90C9-0DA1B52937E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{8E3609B8-313A-41F6-AC20-4176CCB23800}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E3609B8-313A-41F6-AC20-4176CCB23800}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E3609B8-313A-41F6-AC20-4176CCB23800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F307DA6E-8A20-434D-975D-6690601C2901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F307DA6E-8A20-434D-975D-6690601C2901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F307DA6E-8A20-434D-975D-6690601C2901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F307DA6E-8A20-434D-975D-6690601C2901}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

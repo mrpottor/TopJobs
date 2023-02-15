@@ -1,4 +1,4 @@
-﻿namespace JobSeeker.Repo
+﻿namespace Employer.Models
 {
     public class Class
     {

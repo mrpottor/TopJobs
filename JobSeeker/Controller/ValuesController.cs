@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace JobSeeker.Controller
+namespace Employer.Controller
 {
     [Route("api/[controller]")]
     [ApiController]

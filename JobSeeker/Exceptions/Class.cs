@@ -1,4 +1,4 @@
-﻿namespace JobSeeker.Exceptions
+﻿namespace Employer.Exceptions
 {
     public class Class
     {
