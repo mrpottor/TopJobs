@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobSeeker", "TopJobs\JobSee
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employer", "Employer\Employer.csproj", "{C1D17A54-E5F9-4A3E-90C9-0DA1B52937E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobPosting", "JobPosting\JobPosting.csproj", "{BCE50FA6-4314-46E6-86D4-9B91E2C5499C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobApplication", "JobApplication\JobApplication.csproj", "{8E3609B8-313A-41F6-AC20-4176CCB23800}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{C1D17A54-E5F9-4A3E-90C9-0DA1B52937E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1D17A54-E5F9-4A3E-90C9-0DA1B52937E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1D17A54-E5F9-4A3E-90C9-0DA1B52937E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCE50FA6-4314-46E6-86D4-9B91E2C5499C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE50FA6-4314-46E6-86D4-9B91E2C5499C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE50FA6-4314-46E6-86D4-9B91E2C5499C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE50FA6-4314-46E6-86D4-9B91E2C5499C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E3609B8-313A-41F6-AC20-4176CCB23800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E3609B8-313A-41F6-AC20-4176CCB23800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E3609B8-313A-41F6-AC20-4176CCB23800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E3609B8-313A-41F6-AC20-4176CCB23800}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
