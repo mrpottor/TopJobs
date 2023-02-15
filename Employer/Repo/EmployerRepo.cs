@@ -19,7 +19,7 @@ namespace Employer.Repo
 
         async Task<ActionResult<IEnumerable<Recruiter>>> GetAllEmployer()
         {
-            return await _context.Recruiter;
+            return await _context.Recruiter.ToListAsync();
         }
         public Task LoginEmployer(string userName, string password)
         {
@@ -43,6 +43,9 @@ namespace Employer.Repo
             throw new NotImplementedException();
         }
 
-
+        async Task<ActionResult<IEnumerable<Recruiter>>> IEmployerRepo.GetAllEmployer()
+        {
+            return await _context.Recruiter.ToListAsync();
+        }
     }
 }
