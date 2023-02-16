@@ -5,7 +5,11 @@ namespace Employer.Controller
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class EmployerController : ControllerBase
     {
+        public EmployerController() 
+        {
+
+        }
     }
 }
