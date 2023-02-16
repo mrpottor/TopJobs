@@ -1,12 +1,23 @@
 ﻿using Employer.Models;
+using Employer.Repo;
 
 namespace Employer.Services
 {
     public class EmployerService : IEmployerService
     {
+        private readonly IEmployerRepo _repo;
+        public EmployerService(IEmployerRepo repo)
+        {
+            _repo = repo;
+        }
         public bool DeleteEmployer(int employerId)
         {
             throw new NotImplementedException();
+        }
+
+        public List<Recruiter> GetEmployers()
+        {
+            return Task.FromResult<List<Recruiter>>();
         }
 
         public bool LoginEmployer(string userName, string password)

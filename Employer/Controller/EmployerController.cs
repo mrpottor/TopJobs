@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Employer.Models;
+using Employer.Services;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Employer.Controller
@@ -7,9 +9,16 @@ namespace Employer.Controller
     [ApiController]
     public class EmployerController : ControllerBase
     {
-        public EmployerController() 
+        private readonly IEmployerService _employerService;
+        public EmployerController(IEmployerService employerService) 
         {
+            _employerService = employerService;
+        }
 
+        [HttpGet]
+        List<Recruiter> Get() 
+        {
+            return _employerService.GetEmployers();
         }
     }
 }

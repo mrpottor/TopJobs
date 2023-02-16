@@ -2,6 +2,8 @@
 using Employer.Models;
 using Microsoft.AspNetCore.Mvc;
 using Employer.Data;
+using System.ComponentModel;
+using System.Collections.Specialized;
 
 namespace Employer.Repo
 {
@@ -18,7 +20,7 @@ namespace Employer.Repo
             throw new NotImplementedException();
         }
 
-        async Task<ActionResult<IEnumerable<Recruiter>>> GetAllEmployer()
+        async Task<List<Recruiter>> GetAllEmployerAsync()
         {
             return await _context.recruiters.ToListAsync();
         }
@@ -26,10 +28,7 @@ namespace Employer.Repo
         {
             if (userName == null) throw new ArgumentNullException(nameof(userName));
             if(password == null) throw new ArgumentNullException(nameof(password));
-            if(userName == _context.recruiters.Where<>)
-            {
-                return Task.CompletedTask;
-            }
+             
             return Task.CompletedTask;
         }
 
@@ -45,9 +44,9 @@ namespace Employer.Repo
             throw new NotImplementedException();
         }
 
-        async Task<ActionResult<IEnumerable<Recruiter>>> IEmployerRepo.GetAllEmployer()
+        Task<List<Recruiter>> IEmployerRepo.GetAllEmployerAsync()
         {
-            return await _context.recruiters.ToListAsync();
+            throw new NotImplementedException();
         }
     }
 }
