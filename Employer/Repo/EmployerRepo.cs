@@ -6,11 +6,11 @@ namespace Employer.Repo
 {
     public class EmployerRepo : IEmployerRepo
     {
-        private readonly EmployerDBContext _context;
-        public EmployerRepo(EmployerDBContext context)
-        {
-            _context = context;
-        }
+        //private readonly EmployerDBContext _context;
+        //public EmployerRepo(EmployerDBContext context)
+        //{
+        //    _context = context;
+        //}
 
         public Task DeleteEmployer(int employerId)
         {

@@ -1,8 +1,9 @@
-﻿using Employer.Models;
-using Employer.Services;
+﻿using JobSeeker.Models;
+using JobSeeker.Services;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Employer.Controller
+namespace JobSeeker.Controller
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -17,7 +18,7 @@ namespace Employer.Controller
         [HttpPost]
         public bool Post(JobSeekerRegistration c)
         {
-           return Object.AddJobSeeker(c);
+            return Object.AddJobSeeker(c);
         }
     }
 }

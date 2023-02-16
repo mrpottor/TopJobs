@@ -1,4 +1,4 @@
-﻿using Employer.Models;
+﻿using JobSeeker.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace JobSeeker

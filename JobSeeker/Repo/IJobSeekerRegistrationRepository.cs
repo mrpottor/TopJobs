@@ -1,10 +1,12 @@
-﻿using Employer.Models;
+﻿using JobSeeker.Models;
+using Microsoft.AspNetCore.Mvc;
 
-namespace Employer.Repo
+namespace JobSeeker.Repo
 {
     public interface IJobSeekerRegistrationRepository
     {
-        public int AddJobSeeker(JobSeekerRegistration Object);
+        Task<JobSeekerRegistration> AddJobSeeker(JobSeekerRegistration Object);
+        //public JobSeekerRegistration GetJobSeeker(JobSeekerRegistration Obj);
         //Task LoginJobSeeker(string username, string password);
     }
 }

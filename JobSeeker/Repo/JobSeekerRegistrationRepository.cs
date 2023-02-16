@@ -1,5 +1,7 @@
-﻿using Employer.Models;
-using Employer.Repo;
+﻿using JobSeeker.Models;
+using JobSeeker.Repo;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace JobSeeker.Repo
 {
@@ -11,17 +13,19 @@ namespace JobSeeker.Repo
             this.db = db;
         }
 
-        public int AddJobSeeker(JobSeekerRegistration Object)
+        public async Task<JobSeekerRegistration> AddJobSeeker(JobSeekerRegistration Object)
         {
-                db.Add(Object.JobSeekerID);
-                db.Add(Object.JobSeekerFirstName);
-                db.Add(Object.JobSeekerLastName);
-                db.Add(Object.JobSeekerUserName);
-                db.Add(Object.JobSeekerPassword);
-                db.Add(Object.JobSeekerQualification);
-                db.Add(Object.JobSeekerYOP);
-                db.Add(Object.JobSeekerTotalExp);
-                return db.SaveChanges();
+            //db.Add(Object.JobSeekerID);
+            //db.Add(Object.JobSeekerFirstName);
+            //db.Add(Object.JobSeekerLastName);
+            //db.Add(Object.JobSeekerUserName);
+            //db.Add(Object.JobSeekerPassword);
+            //db.Add(Object.JobSeekerQualification);
+            //db.Add(Object.JobSeekerYOP);
+            //db.Add(Object.JobSeekerTotalExp);
+                db.Add(Object);
+                db.SaveChanges();
+            return Object;
         }
     }
 }

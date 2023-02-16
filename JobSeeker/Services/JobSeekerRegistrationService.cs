@@ -1,6 +1,6 @@
-﻿using Employer.Models;
-using Employer.Repo;
-using Employer.Services;
+﻿using JobSeeker.Models;
+using JobSeeker.Repo;
+using JobSeeker.Services;
 
 namespace JobSeeker.Services
 {

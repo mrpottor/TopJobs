@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using JobSeeker.Models;
 
-namespace Employer.Models
+namespace JobSeeker.Models
 {
     public class JobSeekerRegistration
     {
@@ -17,7 +17,6 @@ namespace Employer.Models
         public string JobSeekerPassword { get; set; }
         [Required]
         public QualificationType JobSeekerQualification { get; set; }
-        [Required]
         public DateOnly JobSeekerYOP { get; set; }
         [Required]
         public int JobSeekerTotalExp { get; set; }

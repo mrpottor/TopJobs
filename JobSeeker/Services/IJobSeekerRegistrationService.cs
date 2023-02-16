@@ -1,6 +1,6 @@
-﻿using Employer.Models;
+﻿using JobSeeker.Models;
 
-namespace Employer.Services
+namespace JobSeeker.Services
 {
     public interface IJobSeekerRegistrationService
     {
