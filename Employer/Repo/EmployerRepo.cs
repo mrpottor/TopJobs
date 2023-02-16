@@ -47,7 +47,7 @@ namespace Employer.Repo
 
         async Task<ActionResult<IEnumerable<Recruiter>>> IEmployerRepo.GetAllEmployer()
         {
-            return await _context.Recruiter.ToListAsync();
+            return await _context.recruiters.ToListAsync();
         }
     }
 }
